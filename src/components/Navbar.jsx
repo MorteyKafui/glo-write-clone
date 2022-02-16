@@ -94,7 +94,7 @@ const Navbar = () => {
             <StyledLinks to='/guarantees'>Guarantees</StyledLinks>
           </li>
           <li>
-            <StyledLinks to='/our-works'>Our Writers</StyledLinks>
+            <StyledLinks to='/our-writers'>Our Writers</StyledLinks>
           </li>
         </ul>
         <StyledButtons>
