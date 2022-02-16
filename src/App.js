@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Features from './components/Features';
+import Guarantees from './components/Guarantees';
 import Header from './components/Header';
 
 import Navbar from './components/Navbar';
@@ -31,6 +32,7 @@ const App = () => {
                   <OrderSection />
                 </div>
                 <PricesSection />
+                <Guarantees />
               </>
             }
           />
