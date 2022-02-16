@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Features from './components/Features';
 import Header from './components/Header';
 
 import Navbar from './components/Navbar';
@@ -24,6 +25,7 @@ const App = () => {
                 <div className='container'>
                   <Phone />
                   <Header />
+                  <Features />
                 </div>
               </>
             }
