@@ -81,6 +81,7 @@ const StyledPrices = styled.section`
     background-color: #fff;
     margin-top: 4rem;
     border-radius: 8px;
+    letter-spacing: 1px;
   }
 `;
 
