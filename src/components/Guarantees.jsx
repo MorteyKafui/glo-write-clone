@@ -17,7 +17,7 @@ const StyledSection = styled.section`
   .boxes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
+    justify-items: space-between;
     gap: 5rem;
 
     .box {

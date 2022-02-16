@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import CheapSection from './components/CheapSection';
 import Features from './components/Features';
 import Guarantees from './components/Guarantees';
 import Header from './components/Header';
@@ -33,6 +34,7 @@ const App = () => {
                 </div>
                 <PricesSection />
                 <Guarantees />
+                <CheapSection />
               </>
             }
           />
