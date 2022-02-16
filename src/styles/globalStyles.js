@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 
 *,*::before,*::after{
   box-sizing: inherit;
@@ -17,7 +17,25 @@ html{
 
 body{
   font-size: 1.6rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+.container{
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
 }
 
 `;
