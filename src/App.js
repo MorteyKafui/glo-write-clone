@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import OrderSection from './components/OrderSection';
 import Phone from './components/Phone';
+import PricesSection from './components/PricesSection';
 import GuaranteesPage from './pages/GuaranteesPage';
 import HowItWorksPage from './pages/HowItWorksPage';
 import OurServicesPage from './pages/OurServicesPage';
@@ -29,6 +30,7 @@ const App = () => {
                   <Features />
                   <OrderSection />
                 </div>
+                <PricesSection />
               </>
             }
           />
