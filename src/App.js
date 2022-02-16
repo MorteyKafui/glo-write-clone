@@ -3,6 +3,7 @@ import Features from './components/Features';
 import Header from './components/Header';
 
 import Navbar from './components/Navbar';
+import OrderSection from './components/OrderSection';
 import Phone from './components/Phone';
 import GuaranteesPage from './pages/GuaranteesPage';
 import HowItWorksPage from './pages/HowItWorksPage';
@@ -26,6 +27,7 @@ const App = () => {
                   <Phone />
                   <Header />
                   <Features />
+                  <OrderSection />
                 </div>
               </>
             }

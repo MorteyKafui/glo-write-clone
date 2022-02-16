@@ -14,7 +14,7 @@ const StyledFeatures = styled.section`
   }
 
   p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 1.7;
 
     &:not(:last-child) {
