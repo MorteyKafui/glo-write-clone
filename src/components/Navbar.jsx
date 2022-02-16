@@ -58,13 +58,27 @@ const StyledButtons = styled.div`
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.08), 2px 5px 5px rgba(0, 0, 0, 0.09),
       2px 5px 5px rgba(0, 0, 0, 0.05), 2px 5px 5px rgba(0, 0, 0, 0.06);
     color: #013959;
+    transition: all 0.3s;
+    cursor: pointer;
   }
 
   .btn__yellow {
     background-color: #fec137;
+
+    &:hover {
+      background-color: #fff;
+      transform: translateY(-1px);
+      opacity: 0.7;
+    }
   }
   .btn__white {
     background-color: #fff;
+
+    &:hover {
+      background-color: #fec137;
+      transform: translateY(-1px);
+      opacity: 0.7;
+    }
   }
 `;
 
