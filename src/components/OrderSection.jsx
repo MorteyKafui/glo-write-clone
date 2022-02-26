@@ -42,6 +42,28 @@ const StyledOrder = styled.section`
   a:hover {
     border-bottom: 1px solid currentColor;
   }
+
+  @media (max-width: 468px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    .img {
+      width: 70%;
+      display: block;
+    }
+
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    p,
+    a {
+      font-size: 1.5rem;
+    }
+  }
 `;
 
 const OrderSection = () => {

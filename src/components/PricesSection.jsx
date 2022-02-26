@@ -35,6 +35,10 @@ const StyledPrices = styled.section`
         text-transform: uppercase;
         font-weight: 400;
         font-size: 1.6rem;
+
+        @media (max-width: 468px) {
+          font-size: 1.3rem;
+        }
       }
 
       .line {
@@ -52,6 +56,10 @@ const StyledPrices = styled.section`
         font-size: 4rem;
         font-weight: 700;
         color: #fec137;
+
+        @media (max-width: 468px) {
+          font-size: 3rem;
+        }
 
         sub {
           font-size: 2rem;
@@ -82,6 +90,28 @@ const StyledPrices = styled.section`
     margin-top: 4rem;
     border-radius: 8px;
     letter-spacing: 1px;
+  }
+
+  @media (max-width: 468px) {
+    .cards {
+      flex-direction: column;
+
+      .card-sm {
+        padding: 2rem;
+        flex: 0 0 10%;
+      }
+
+      .card-lg {
+        text-align: center;
+        font-size: 1.4rem;
+        padding: 2rem;
+      }
+    }
+
+    .btn {
+      font-size: 1.7rem;
+      padding: 1.3rem 5rem;
+    }
   }
 `;
 

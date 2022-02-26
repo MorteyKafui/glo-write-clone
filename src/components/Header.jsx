@@ -8,6 +8,10 @@ const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+
+  @media (max-width: 468px) {
+    flex-direction: column;
+  }
 `;
 
 const StyledContents = styled.div`
@@ -17,6 +21,11 @@ const StyledContents = styled.div`
     font-size: 5rem;
     font-weight: 700;
     margin-bottom: 3rem;
+
+    @media (max-width: 468px) {
+      font-size: 3.5rem;
+      text-align: center;
+    }
   }
 
   p {
@@ -24,6 +33,11 @@ const StyledContents = styled.div`
     letter-spacing: 0.8px;
     margin-bottom: 3rem;
     color: #013959;
+
+    @media (max-width: 468px) {
+      text-align: center;
+      font-size: 1.5rem;
+    }
   }
 
   .btns {
@@ -31,6 +45,13 @@ const StyledContents = styled.div`
     align-items: center;
     gap: 5rem;
     margin-bottom: 3rem;
+
+    @media (max-width: 468px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+    }
   }
 
   .btn {
@@ -43,6 +64,10 @@ const StyledContents = styled.div`
       0 2px 4px 4px rgba(0, 0, 0, 0.05), 5px 7px 7px rgba(0, 0, 0, 0.07);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+
+    @media (max-width: 468px) {
+      font-size: 2rem;
+    }
   }
 
   .btn--yellow {
@@ -84,6 +109,23 @@ const StyledStats = styled.div`
 
   h3:not(:last-child) {
     border-right: 1px solid #677177;
+  }
+
+  @media (max-width: 468px) {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+
+    h3 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    h3:not(:last-child) {
+      border-right: none;
+    }
   }
 `;
 

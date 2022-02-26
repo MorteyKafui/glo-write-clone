@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 const StyledSection = styled.section`
   margin-top: 10rem;
+
+  @media (max-width: 468px) {
+    margin-top: 5rem;
+  }
   .container {
     border-radius: 10px;
     background-color: #f0f0f0;
@@ -9,7 +13,6 @@ const StyledSection = styled.section`
     .contents {
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
       gap: 2rem;
       text-align: center;
@@ -28,6 +31,10 @@ const StyledSection = styled.section`
         font-weight: 400;
         width: 38%;
         text-align: center;
+
+        @media (max-width: 468px) {
+          width: 100%;
+        }
       }
 
       .btn {
@@ -41,6 +48,10 @@ const StyledSection = styled.section`
         color: #fff;
         font-size: 1.8rem;
         font-weight: 700;
+
+        @media (max-width: 468px) {
+          font-size: 1.6rem;
+        }
       }
     }
   }

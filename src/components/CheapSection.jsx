@@ -5,10 +5,18 @@ const StyledSection = styled.section`
   color: #10375a;
   margin-top: 10rem;
 
+  @media (max-width: 468px) {
+    margin-top: 0;
+  }
+
   .top {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
+
+    @media (max-width: 468px) {
+      grid-template-columns: 1fr;
+    }
 
     .box-1 {
       /* h2 {
@@ -22,6 +30,10 @@ const StyledSection = styled.section`
       p {
         font-size: 1.8rem;
 
+        @media (max-width: 468px) {
+          font-size: 1.5rem;
+        }
+
         &:not(:last-child) {
           margin-bottom: 2rem;
         }
@@ -33,6 +45,10 @@ const StyledSection = styled.section`
 
       p {
         font-size: 1.8rem;
+
+        @media (max-width: 468px) {
+          font-size: 1.5rem;
+        }
       }
 
       .btn {
@@ -58,6 +74,10 @@ const StyledTitle = styled.h2`
   padding: 2rem;
   border-bottom: 2px solid #fec137;
   margin-bottom: 3rem;
+
+  @media (max-width: 468px) {
+    font-size: 2rem;
+  }
 `;
 
 const StyledMiddle = styled.div`
@@ -68,8 +88,16 @@ const StyledMiddle = styled.div`
   align-items: flex-start;
   gap: 3rem;
 
+  @media (max-width: 468px) {
+    flex-direction: column;
+  }
+
   p {
     font-size: 1.8rem;
+
+    @media (max-width: 468px) {
+      font-size: 1.5rem;
+    }
   }
 
   .border {
@@ -85,8 +113,11 @@ const StyledBottom = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   gap: 3rem;
-
   margin-top: 5rem;
+
+  @media (max-width: 468px) {
+    flex-direction: column;
+  }
 
   div {
     flex: 0 0 33%;
@@ -96,6 +127,10 @@ const StyledBottom = styled.div`
       border-left: 2px solid #fec137;
       padding: 0 3rem;
       font-size: 1.8rem;
+
+      @media (max-width: 468px) {
+        font-size: 1.5rem;
+      }
     }
   }
 `;

@@ -12,6 +12,10 @@ const StyledSection = styled.section`
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 3rem;
+
+    @media (max-width: 468px) {
+      font-size: 2rem;
+    }
   }
 
   .boxes {
@@ -19,6 +23,10 @@ const StyledSection = styled.section`
     grid-template-columns: repeat(3, 1fr);
     justify-items: space-between;
     gap: 5rem;
+
+    @media (max-width: 468px) {
+      grid-template-columns: 1fr;
+    }
 
     .box {
       display: flex;
@@ -30,6 +38,11 @@ const StyledSection = styled.section`
         font-weight: 400;
         margin-bottom: 2rem;
 
+        @media (max-width: 468px) {
+          font-size: 1.8rem;
+          font-weight: 700;
+        }
+
         i {
           margin-right: 1.3rem;
         }
@@ -39,6 +52,11 @@ const StyledSection = styled.section`
         font-size: 1.8rem;
         line-height: 1.6;
         margin-bottom: 3rem;
+
+        @media (max-width: 468px) {
+          font-size: 1.5rem;
+          margin-bottom: 1.5rem;
+        }
       }
 
       .more {

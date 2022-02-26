@@ -33,6 +33,19 @@ const StyledFeatures = styled.section`
   .yellow .fa-check {
     color: #fec137;
   }
+
+  @media (max-width: 468px) {
+    flex-direction: column;
+    gap: 3rem;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
 `;
 
 const Features = () => {
