@@ -131,18 +131,6 @@ const Footer = () => {
               alt='paypal'
             />
             <img
-              src='https://glowriters.com/static/images/accept.svg'
-              alt='visa'
-            />
-            <img
-              src='https://glowriters.com/static/images/accept.svg'
-              alt='master-card'
-            />
-            <img
-              src='https://glowriters.com/static/images/accept.svg'
-              alt='discover'
-            />
-            <img
               src='https://glowriters.com/static/images/dmca.svg'
               alt='protected'
             />

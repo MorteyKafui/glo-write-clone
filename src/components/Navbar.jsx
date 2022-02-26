@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { FaBars } from 'react-icons/fa';
 
 const StyledNav = styled.nav`
   background-color: #fec137;
@@ -41,6 +42,10 @@ const StyledLinks = styled(Link)`
   .fa-angle-down {
     margin-left: 1rem;
   }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const StyledButtons = styled.div`
@@ -80,6 +85,24 @@ const StyledButtons = styled.div`
       opacity: 0.7;
     }
   }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
+const StyledBars = styled(FaBars)`
+  cursor: pointer;
+  display: none;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.5);
+  }
+
+  @media (max-width: 768px) {
+    display: block;
+  }
 `;
 
 const Navbar = () => {
@@ -115,6 +138,7 @@ const Navbar = () => {
           <button className='btn btn__yellow'>My account</button>
           <button className='btn btn__white'>Order now</button>
         </StyledButtons>
+        <StyledBars color='#00395a' />
       </div>
     </StyledNav>
   );
