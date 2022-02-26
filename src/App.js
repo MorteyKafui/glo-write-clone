@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import CheapSection from './components/CheapSection';
 import Features from './components/Features';
+import Footer from './components/Footer';
 import Guarantees from './components/Guarantees';
 import Header from './components/Header';
 
@@ -8,6 +9,7 @@ import Navbar from './components/Navbar';
 import OrderSection from './components/OrderSection';
 import Phone from './components/Phone';
 import PricesSection from './components/PricesSection';
+import SupportSection from './components/SupportSection';
 import GuaranteesPage from './pages/GuaranteesPage';
 import HowItWorksPage from './pages/HowItWorksPage';
 import OurServicesPage from './pages/OurServicesPage';
@@ -35,6 +37,8 @@ const App = () => {
                 <PricesSection />
                 <Guarantees />
                 <CheapSection />
+                <SupportSection />
+                <Footer />
               </>
             }
           />
